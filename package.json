@@ -15,10 +15,12 @@
     "dotenv": "^16.3.1",
     "express": "*",
     "express-asyncify": "*",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.109",
     "method-override": "*",
     "openai": "^3.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
   }
 }
