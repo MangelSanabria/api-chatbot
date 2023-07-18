@@ -36,7 +36,7 @@
         `;
         chatLog.appendChild(messageElement);
         chatLog.scrollTop = chatLog.scrollHeight;
-        fetch("http://localhost:3000/api/new_query", {
+        fetch("https://api-chatbot-tu9h.onrender.com/api/new_query", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

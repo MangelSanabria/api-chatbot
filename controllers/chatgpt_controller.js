@@ -102,6 +102,7 @@ const new_query = async (req, res) => {
         ...messages,
       ],
     });
+    console.log(completion.data.choices[0].message)
     res.status(200).json({
       completion: completion.data.choices[0].message,
     });
